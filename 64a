@@ -1,6 +1,3 @@
-def x(a):
-    s=[]
-   s=a.split()
-    return s[0]
-w=input()
- print((w))
+a = input("введите слово")
+a = a.split()
+print (a[0])
