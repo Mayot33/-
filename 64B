@@ -4,7 +4,7 @@ def rash(a,b):
        If e!=-1:
           a=a[:e+1]+b
        else:
-          a=a+"."+b
-s=input()
+         a=a+"."+b
+r=input()
 w=input()
-print(rash(s,w))
+ print(rash(r,w))
