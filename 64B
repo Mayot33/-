@@ -1,0 +1,10 @@
+64B
+def rash(a,b):
+   e=a.rfind(".") 
+       If e!=-1:
+          a=a[:e+1]+b
+       else:
+          a=a+"."+b
+s=input()
+w=input()
+print(rash(s,w))
