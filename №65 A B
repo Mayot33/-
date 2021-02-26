@@ -6,8 +6,8 @@ def TumWor(A,w,L):
         return
     for c in A:
         TumWor(A,w +c,L)
-k=int(input())
-TumWor("ЫШЧО", "",k)   
+g=int(input())
+TumWor("ЫШЧО", "",g)   
 B
 def TumWor(A,w,L):
     if len(w)==L: 
