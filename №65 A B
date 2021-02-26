@@ -16,6 +16,5 @@ def TumWor(A,w,L):
         return 
     for c in A:
         TumWor(A,w +c,L)
-
 k=int(input()) 
 TumWor("ЫШЧО", "",k)
